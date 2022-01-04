@@ -1,0 +1,7 @@
+#!/bin/bash
+mkdir test1 test2 test3
+cd test1
+touch file11.txt file22.txt file33.txt file44.json file55.json
+mkdir rest1 rest2 rest3
+ls -la
+mv {file11.txt,file22.txt} rest1
